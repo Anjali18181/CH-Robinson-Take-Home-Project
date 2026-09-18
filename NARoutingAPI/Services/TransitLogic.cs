@@ -1,11 +1,11 @@
-public class TransitLogic
+public static class TransitLogic
 {
-    public bool IsValidCountry(string countryCode)
+    public static bool IsValidCountry(string countryCode)
     {
         return NorthAmericaMap.Graph.ContainsKey(countryCode);
     }
 
-    public List<string> BFS(string destination)
+    public static List<string> BFS(string destination)
     {
         var queue = new Queue<List<string>>();
         var visited = new HashSet<string>();
