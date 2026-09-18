@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NARoutingAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b939befb5b742b43cbae0d4988fdfadf9469e7f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03588a62dfe0a0673b19924b205810f25a395ff3")]
 [assembly: System.Reflection.AssemblyProductAttribute("NARoutingAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NARoutingAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
