@@ -1,6 +1,4 @@
 // creates WebApplicationBuilder object and any necessary configurations
-using Microsoft.AspNetCore.Components.Routing;
-
 var builder = WebApplication.CreateBuilder(args);
 // builds WebApplication object
 var app = builder.Build();
