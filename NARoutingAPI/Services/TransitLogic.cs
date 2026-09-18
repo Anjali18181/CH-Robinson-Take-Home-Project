@@ -1,11 +1,11 @@
-public class RoutingLogic
+public class TransitLogic
 {
     public bool IsValidCountry(string countryCode)
     {
-        return Map.Graph.ContainsKey(countryCode);
+        return NorthAmericaMap.Graph.ContainsKey(countryCode);
     }
 
-    public List<string> BFSRoute(string destination)
+    public List<string> BFS(string destination)
     {
         var queue = new Queue<List<string>>();
         var visited = new HashSet<string>();
@@ -23,7 +23,7 @@ public class RoutingLogic
             return route;
         }
 
-        foreach (var neighbor in Map.Graph[country])
+        foreach (var neighbor in NorthAmericaMap.Graph[country])
         {
             if (visited.Add(neighbor))
             {

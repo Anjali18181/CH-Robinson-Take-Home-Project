@@ -1,4 +1,4 @@
-public static class Map
+public static class NorthAmericaMap
 {
     public static Dictionary<string, string[]> Graph = new Dictionary<string, string[]>
     {
